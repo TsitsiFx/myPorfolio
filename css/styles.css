@@ -1,0 +1,233 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: "Open Sans";
+}
+
+body {
+  width: 85%;
+  margin: auto;
+  font-size: 15px;
+}
+/* STYLING FOR HEADER SECTION */
+header {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  /* position: fixed; */
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 20px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+}
+
+.nav-right a:hover {
+  border-bottom: 2px solid black;
+}
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.bottom-text {
+  display: flex;
+  justify-content: end;
+}
+
+.top-text, .bottom-text {
+  height: 40vh;
+}
+.top-text p, .bottom-text p {
+  font-size: 160px;
+  font-weight: 500;
+}
+
+.below-header-text {
+  width: 40%;
+  padding-top: 100px;
+}
+
+/* ABOUT SECTION */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  height: 90vh;
+  justify-content: start;
+  margin-bottom: 80px;
+}
+
+.about-top-content {
+  height: 20%;
+}
+
+.about-top-content p {
+  font-size: 60px;
+  font-weight: 400;
+}
+.about-below-content {
+  display: flex;
+  gap: 30px;
+  height: 80%;
+}
+
+.section-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.section-left-text p {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.section-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.section-right p {
+  font-size: 16px;
+  line-height: 160%;
+  color: #575757;
+}
+
+.bottom-navs {
+  display: flex;
+  justify-content: start;
+  width: 60%;
+  gap: 20px;
+  align-items: center;
+}
+
+/* EXPERIENCE SECTION */
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  gap: 60px;
+}
+
+.experience-heading h1 {
+  font-size: 60px;
+}
+
+.experiences h1 {
+  font-size: 30px;
+}
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.experiences-below-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.exp-below-mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  width: 25%;
+}
+
+.exp-below-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exp-below-mid-left, .exp-below-mid-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exp-below-mid-left p {
+  color: #575757;
+}
+
+.exp-below-right {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exp-below-right p {
+  color: #575757;
+}
+/* FOOTER STYLING */
+footer {
+  height: 60vh;
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 150px;
+}
+.collaborate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.collaborate p {
+  font-size: 70px;
+}
+.collaborate a p{
+  font-size: 30px;
+  border-bottom: 2px solid black;
+}
+
+.footer-below {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-below a {
+  font-size: 15px;
+}
+.footer-below-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-below-items div p {
+  font-size: 20px;
+}
