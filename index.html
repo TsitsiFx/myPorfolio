@@ -17,12 +17,12 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <title>Manasseh</title>
+    <title>Manasseh Acquah</title>
   </head>
-  <body class="bg-black text-white w-4/5 m-auto">
-    <header class="flex flex-col mb-60px h-[120vh]">
-      <nav class="flex justify-between h-20vh items-center">
-        <div class="nav-left flex flex-row justify-start gap-[20px]">
+  <body class="w-[90%] m-auto flex flex-col justify-between gap-[200px]">
+    <header class="flex flex-col justify-start h-[120vh] bg-yellow-300">
+      <nav class="flex justify-between h-[20vh] items-center">
+        <div class="nav-left flex flex-row justify-start gap-[25px]">
           <div>
             <p>
               Based in <br />
@@ -36,28 +36,34 @@
         </div>
 
         <div class="nav-right flex justify-end gap-[40px]">
-          <a href="">ABOUT</a>
-          <a href="">EXPERIENCE</a>
-          <a href="">PROJECTS</a>
+          <a href="#about">ABOUT</a>
+          <a href="#experience">EXPERIENCE</a>
+          <a href="#projects">PROJECTS</a>
           <a href="">CONTACT</a>
         </div>
       </nav>
 
-      <div class="top-text flex flex-col justify-left h-40vh">
-        <p class="text-[160px] font-medium">MANASSEH</p>
+      <div class="flex flex-col justify-between">
+        <div class="top-text flex flex-col justify-start items-start h-[40vh]">
+          <p class="text-[180px] font-medium h-[40vh]">MANASSEH</p>
+        </div>
+
+        <div class="bottom-text flex justify-end h-40vh">
+          <p class="text-[180px] font-medium">ACQUAH</p>
+        </div>
       </div>
 
-      <div class="bottom-text flex justify-end h-40vh">
-        <p class="text-[160px] font-medium">ACQUAH</p>
-      </div>
-      <p class="below-header-text w-2/5 pt-[100px]">
+      <p class="below-header-text w-2/5">
         A business-oriented web deveoper with a year of experience working in
         setting up professional websites for businesses
       </p>
     </header>
 
+    <!--ABOUT SECTION  -->
+
     <section
-      class="about-section flex flex-col gap-[50px] w-full h-[90vh] justify-start mb-80"
+      class="about-section flex flex-col gap-[50px] w-full h-[100vh] justify-start bg-purple-300"
+      id="about"
     >
       <div class="about-top-content h-1/5">
         <p class="text-[70px] font-medium">ABOUT</p>
@@ -110,39 +116,11 @@
       </div>
     </section>
 
-    <section class="projects-section flex flex-col h-screen w-full gap-[30px">
-      <div>
-        <h1 class="text-[70px] font-medium">PROJECTS</h1>
-      </div>
-
-      <div class="flex justify-between">
-        <div class="flex flex-col justify-between gap-[20px] w-1/2">
-          <p>
-            Compound Interest <br />
-            Calculator
-          </p>
-          <p>
-            Web Development, Design, Idea <br />
-            2024
-          </p>
-          <p>
-            This side project started from my personal interest in the effects
-            of compound interest.
-          </p>
-          <p>
-            My goal was to create a simple, user-friendly tool that hides all
-            the complexity — something people could use regularly.
-          </p>
-          <p>
-            The project was developed using TypeScript, React, Vite, and deployed on Cloudflare Pages.
-          </p>
-        </div>
-        <div class="w-1/2"></div>
-      </div>
-    </section>
+    <!-- EXPERIENCE SECTION -->
 
     <section
-      class="experience-section flex flex-col w-full h-screen gap-[60px]"
+      class="experience-section flex flex-col justify-between w-full gap-[60px] bg-yellow-300"
+      id="experience"
     >
       <div class="experience-heading">
         <h1 class="text-[70px]">EXPERIENCE</h1>
@@ -223,8 +201,135 @@
       </div>
     </section>
 
-    <footer
-      class="h-[60vh] w-full flex flex-col mt-150 justify-end gap-[150px]">
+
+    <!-- PROJECTS SECTION -->
+    <section
+      class="project-container flex flex-col justify-evenly gap-[100px]"
+      id="projects"
+    >
+    <!-- SECTION 1 -->
+      <div class="flex flex-col w-full gap-[60px] bg-red-300">
+        <div>
+          <h1 class="text-[70px] font-medium">PROJECTS</h1>
+        </div>
+
+        <div class="flex justify-between items-between h-[80vh]">
+          <div class="flex flex-col justify-between gap-[20px] w-1/4">
+            <div class="top-left-txt">
+              <p>
+                Compound Interest <br />
+                Calculator
+              </p>
+              <p>
+                Web Development, Design, Idea <br />
+                2024
+              </p>
+            </div>
+
+            <div class="middle-left-text">
+              <p>
+                This side project started from my personal interest in the
+                effects of compound interest.
+              </p>
+              <p>
+                My goal was to create a simple, user-friendly tool that hides
+                all the complexity — something people could use regularly.
+              </p>
+              <p>
+                The project was developed using TypeScript, React, Vite, and
+                deployed on Cloudflare Pages.
+              </p>
+            </div>
+
+            <a href="">Link to this project</a>
+          </div>
+          <div class="w-1/2 bg-black">
+            <img src="./images/Screenshot 2025-02-26 000543.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+    <!-- SECTION 2 -->
+      <div class="flex flex-col bg-purple-300">
+        <div class="flex justify-between h-[80vh]">
+          <div class="w-1/2 bg-black">
+            <img src="./images/Screenshot 2025-02-26 000543.png" alt="" />
+          </div>
+          <div class="flex flex-col justify-between gap-[20px] w-1/4">
+            <div class="top-left-txt">
+              <p>
+                Compound Interest <br />
+                Calculator
+              </p>
+              <p>
+                Web Development, Design, Idea <br />
+                2024
+              </p>
+            </div>
+
+            <div class="middle-left-text">
+              <p>
+                This side project started from my personal interest in the
+                effects of compound interest.
+              </p>
+              <p>
+                My goal was to create a simple, user-friendly tool that hides
+                all the complexity — something people could use regularly.
+              </p>
+              <p>
+                The project was developed using TypeScript, React, Vite, and
+                deployed on Cloudflare Pages.
+              </p>
+            </div>
+
+            <a href="">Link to this project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 3 -->
+
+      <div class="flex flex-col w-full bg-blue-300">
+        <div class="flex justify-between h-[80vh]">
+          <div class="flex flex-col justify-between gap-[20px] w-1/4">
+            <div class="top-left-txt">
+              <p>
+                Compound Interest <br />
+                Calculator
+              </p>
+              <p>
+                Web Development, Design, Idea <br />
+                2024
+              </p>
+            </div>
+
+            <div class="middle-left-text">
+              <p>
+                This side project started from my personal interest in the
+                effects of compound interest.
+              </p>
+              <p>
+                My goal was to create a simple, user-friendly tool that hides
+                all the complexity — something people could use regularly.
+              </p>
+              <p>
+                The project was developed using TypeScript, React, Vite, and
+                deployed on Cloudflare Pages.
+              </p>
+            </div>
+
+            <a href="">Link to this project</a>
+          </div>
+          <div class="w-1/2 bg-black">
+            <img src="./images/Screenshot 2025-02-26 000543.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="h-[60vh] w-full flex flex-col justify-around bg-purple-300">
       <div class="collaborate flex justify-between">
         <p class="text-[70px]">Let's Collaborate</p>
         <a href=""> <p class="text-[30px]">manacquah81@gmail.com</p></a>
