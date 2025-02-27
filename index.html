@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="/website/css/uicons-outline-rounded.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/darkmode.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,17 +19,18 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-    <script src="/index.js" defer></script>
+    <script src="/tailwind.config.js" defer></script>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <title>Manasseh Acquah</title>
   </head>
   <body
     class="scroll-smooth w-[90%] m-auto flex flex-col justify-between gap-[200px] bg-[#FFFFFF] text-[#242126]"
   >
-    <header id="home" class="flex flex-col justify-start h-[120vh]">
-      <nav class="flex justify-between h-[20vh] items-center">
-        <div class="h-[20vh] flex items-center">
+    <header id="home" class="flex flex-col justify-center h-[120vh]">
+      <nav class="flex justify-between h-[15vh] items-end">
+        <div class="h-[15vh] flex items-start">
           <div class="nav-left flex flex-row justify-start gap-[25px]">
             <div>
               <p class="font-medium text-[18px]">
@@ -42,30 +45,30 @@
               <a
                 href="mailto:manacquah81gmail.com"
                 type="gmail"
-                class="font-medium text-[20px] decoration-red-50"
+                class=" border-b-2 border-[#969696] hover:border-black transition-colors duration-1000 pb-2 font-medium text-[20px] decoration-red-50"
                 >manacquah81@gmail.com</a
               >
             </p>
           </div>
         </div>
 
-        <div class="h-[20vh] flex items-center">
-          <div class="nav-right flex justify-end gap-[40px]">
-            <a href="#home" class="font-medium text-[18px] animate-pulse">HOME</a>
-            <a href="#about" class="font-medium text-[18px] animate-pulse">ABOUT</a>
-            <a href="#experience" class="font-medium text-[18px] animate-pulse">EXPERIENCE</a>
-            <a href="#projects" class="font-medium text-18px] animate-pulse">PROJECTS</a>
+        <div class="h-[15vh] flex items-start">
+          <div class="nav-right flex justify-end items-start gap-[40px]">
+            <a href="#about" class="font-medium text-[18px]">ABOUT</a>
+            <a href="#experience" class="font-medium text-[18px]">EXPERIENCE</a>
+            <a href="#projects" class="font-medium text-[18px]">PROJECTS</a>
+            <a href="#footers" class="font-medium text-[18px]">CONTACT</a>
           </div>
         </div>
       </nav>
 
       <div class="flex flex-col justify-between">
         <div class="top-text flex flex-col justify-start items-start h-[40vh]">
-          <p class="text-[180px] font-medium h-[40vh]">MANASSEH</p>
+          <p class="tracking-in-contract-bck-bottom text-[180px] font-medium h-[40vh]">MANA<span class="bg-yellow-300">SSEH</span></p>
         </div>
 
         <div class="bottom-text flex justify-end h-40vh">
-          <p class="text-[180px] font-medium">ACQUAH</p>
+          <p class="tracking-in-contract text-[180px] font-medium">ACQUAH</p>
         </div>
       </div>
 
@@ -89,26 +92,25 @@
         <div class="section-left flex flex-col justify-between w-3/5">
           <div class="section-left-text">
             <p class="text-[33px] font-medium">
-              Over the years, I have transitioned from the creative world of
-              music, where I honed my problem-solving and storytelling skills,
-              into the field of tech, leveraging my ability to adapt quickly to new challenges.
+              Earlier this year, I transitioned from a career in music to exploring the world of tech. Now, I’m on an exciting journey to explore its endless possibilities and create meaningful value in this evolving field, especially in Africa.
             </p>
           </div>
 
           <div
-            class="bottom-navs align-top flex justify-start w-3/5 gap-[20px] items-center"
+            class="bottom-navs flex justify-between w-4/5 h-[20vh] gap-[20px] items-end"
           >
-            <p>
+            <p class="text-16px">
               Web Developer <br />
               <small>Back-end development</small>
             </p>
-            <p>
-              Say hello<br />
-              <a href="" type="gmail" class="border-b-2 border-[#969696] pb-2 hover:border-black transition-colors duration-1000">manacquah81@gmail.com</a>
-            </p>
-            <a href="" class="border-b-2 border-[#969696] pb-2 hover:border-black transition-colors duration-1000">Explore LinkedIn</a>
+              <a target="_blank" href="./cv/Manasseh Acquah CV.pdf" type="gmail" class="border-b-2 border-[#969696] hover:border-black transition-colors duration-1000 pb-2">Download CV <svg class="inline" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M17 17H17.01M17.4 14H18C18.9319 14 19.3978 14 19.7654 14.1522C20.2554 14.3552 20.6448 14.7446 20.8478 15.2346C21 15.6022 21 16.0681 21 17C21 17.9319 21 18.3978 20.8478 18.7654C20.6448 19.2554 20.2554 19.6448 19.7654 19.8478C19.3978 20 18.9319 20 18 20H6C5.06812 20 4.60218 20 4.23463 19.8478C3.74458 19.6448 3.35523 19.2554 3.15224 18.7654C3 18.3978 3 17.9319 3 17C3 16.0681 3 15.6022 3.15224 15.2346C3.35523 14.7446 3.74458 14.3552 4.23463 14.1522C4.60218 14 5.06812 14 6 14H6.6M12 15V4M12 15L9 12M12 15L15 12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+              </a>
+
+            <a href="" class="inline border-b-2 border-[#969696] hover:border-black transition-colors duration-1000 pb-2">Explore LinkedIn <svg class="inline" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </a>
           </div>
         </div>
+
         <div class="section-right flex flex-col justify-between w-1/2">
           <p class="text-[16px] text-[#575757] leading-[160%]">
             Software engineer with a decent knowledge of javascript, HTML, and
@@ -148,25 +150,21 @@
       </div>
       <div class="experiences flex flex-col gap-[40px]">
         <div>
-          <h1 class="text-[40px]">Studio Musician</h1>
+          <h1 class="text-[50px] font-medium">Tutoring</h1>
         </div>
         <div class="experiences-below-content flex flex-row justify-between">
           <div class="exp-below-left flex flex-col gap-[20px]">
-            <p class="text-[15px]">Award winning blablablah</p>
-            <p class="text-[15px]">2020 - Present</p>
+            <p class="text-[15px]">Private Tutor and Instructor</p>
+            <p class="text-[15px]">2018 - 2022</p>
           </div>
           <div class="exp-below-mid flex justify-between gap-[20px] w-1/4">
             <div class="exp-below-mid-left flex flex-col gap-[20px]">
               <p class="text-[15px]">Position</p>
-              <p class="text-[15px]">Location</p>
               <p class="text-[15px]">Industry</p>
-              <p class="text-[15px]">Website</p>
             </div>
             <div class="exp-below-mid-right flex flex-col gap-[20px]">
-              <p class="text-[15px]">Producer</p>
-              <p class="text-[15px]">Santa Maria</p>
+              <p class="text-[15px]">Tutor</p>
               <p class="text-[15px]">Music</p>
-              <a href="_target" class="text-[15px]">M.A.D studios</a>
             </div>
           </div>
           <div class="exp-below-right flex flex-col gap-[20px] w-2/5">
@@ -185,7 +183,7 @@
       </div>
       <div class="experiences flex flex-col gap-[40px]">
         <div>
-          <h1 class="text-[40px]">Studio Musician</h1>
+          <h1 class="text-[50px] font-medium">Studio Musician</h1>
         </div>
         <div class="experiences-below-content flex flex-row justify-between">
           <div class="exp-below-left flex flex-col">
@@ -233,76 +231,71 @@
           <h1 class="text-[70px] border-b-2 border-[#DBDBDB] " >PROJECTS</h1>
         </div>
 
-        <div class="flex justify-between items-between h-[80vh]">
+        <div class="flex justify-between items-between h-[85vh]">
           <div class="flex flex-col justify-between gap-[20px] w-1/4">
             <div class="top-left-txt">
-              <p>
-                Compound Interest <br />
-                Calculator
+              <p class="font-medium text-[20px]">
+                Valentine Themed Website <br />
+                Landing Page
               </p>
-              <p>
+              <p class="font-normal text-[16px]">
                 Web Development, Design, Idea <br />
                 2024
               </p>
             </div>
 
-            <div class="middle-left-text">
-              <p>
-                This side project started from my personal interest in the
-                effects of compound interest.
+            <div class="middle-left-text flex flex-col gap-[20px] middle-left-text">
+              <p class="text-[14px]">
+                Inspired by Valentine's Day, I created a website with a romantic color palette of red, pink, and white. The design reflects love and warmth, featuring heart-themed elements and elegant typography to celebrate the spirit of the season.
               </p>
-              <p>
-                My goal was to create a simple, user-friendly tool that hides
-                all the complexity — something people could use regularly.
+              <p class="text-[14px]">
+                "This started as an assigned task, but as I immersed myself in the process, it transformed into a meaningful side project that allowed me to explore creativity and refine my skills beyond expectations."
               </p>
-              <p>
-                The project was developed using TypeScript, React, Vite, and
-                deployed on Cloudflare Pages.
+              <p class="text-[14px]">
+                The project was developed using html, css, and was
+                deployed on github.
               </p>
             </div>
 
-            <a href="">Link to this project</a>
+            <a href="https://tsitsifx.github.io/val-demo/" target="_blank" class="border-b-2 border-[#969696] hover:border-black transition-colors duration-1000 pb-2">Link to this project <svg class="inline animate-bounce" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
           </div>
-          <div class="w-1/2 bg-black">
-            <img class="slideshow" src="./images/image1.png" alt="" />
+          <div class="bg-black flex justify-center items-center w-3/5">
+            <img class="w-4/5 h-4/5 slideshow" src="./images/image1.png" alt="" />
           </div>
         </div>
       </div>
 
       <!-- SECTION 2 -->
       <div class="flex flex-col">
-        <div class="flex justify-between h-[80vh]">
-          <div class="w-1/2 bg-black">
-            <img src="./images/image2.png" alt="" />
+        <div class="flex justify-between items-between h-[85vh]">
+          <div class="bg-black flex justify-center items-center w-3/5">
+            <img class="w-4/5 h-4/5 slideshow" src="./images/image4.png" alt="" />
           </div>
           <div class="flex flex-col justify-between gap-[20px] w-1/4">
             <div class="top-left-txt">
-              <p>
-                Compound Interest <br />
-                Calculator
+              <p class="font-medium text-[20px]">
+                Rock Paper Scissors Game <br />
+                Web app
               </p>
-              <p>
+              <p class="font-normal text-[16px]">
                 Web Development, Design, Idea <br />
                 2024
               </p>
             </div>
 
-            <div class="middle-left-text">
-              <p>
-                This side project started from my personal interest in the
-                effects of compound interest.
+            <div class="flex flex-col gap-[20px] middle-left-text">
+              <p class="text-[14px]">
+                This side project started from my personal interest in trying to understand the basics of javascript.
               </p>
-              <p>
-                My goal was to create a simple, user-friendly tool that hides
-                all the complexity — something people could use regularly.
+              <p class="text-[14px]">
+                My goal was to create a simple, user-friendly web app that takes in inputs and displays them on the web page and gives the user an option to interact with the application and receive a response.
               </p>
-              <p>
-                The project was developed using TypeScript, React, Vite, and
-                deployed on Cloudflare Pages.
+              <p class="text-[14px]">
+                The project was developed using javascript, html and css.
               </p>
             </div>
 
-            <a href="">Link to this project</a>
+            <a href="https://tsitsifx.github.io/rockPaperScissors/" target="_blank" class="border-b-2 border-[#969696] hover:border-black transition-colors duration-1000 pb-2">Link to this project <svg class="inline animate-bounce" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M17 17L7 7M7 7V16M7 7H16" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
           </div>
         </div>
       </div>
@@ -310,38 +303,38 @@
       <!-- SECTION 3 -->
 
       <div class="flex flex-col w-full">
-        <div class="flex justify-between h-[80vh]">
+        <div class="flex justify-between items-between h-[85vh]">
           <div class="flex flex-col justify-between gap-[20px] w-1/4">
             <div class="top-left-txt">
-              <p>
+              <p class="font-medium text-[20px]">
                 Compound Interest <br />
                 Calculator
               </p>
-              <p>
+              <p class="font-normal text-[16px]">
                 Web Development, Design, Idea <br />
                 2024
               </p>
             </div>
 
-            <div class="middle-left-text">
-              <p>
+            <div class="middle-left-text flex flex-col justify-between gap-[20px]">
+              <p class="text-[14px]">
                 This side project started from my personal interest in the
                 effects of compound interest.
               </p>
-              <p>
+              <p class="text-[14px]">
                 My goal was to create a simple, user-friendly tool that hides
                 all the complexity — something people could use regularly.
               </p>
-              <p>
+              <p class="text-[14px]">
                 The project was developed using TypeScript, React, Vite, and
                 deployed on Cloudflare Pages.
               </p>
             </div>
 
-            <a href="">Link to this project</a>
+            <a href="https://tsitsifx.github.io/hotel-page/" target="_blank" class="border-b-2 border-[#969696] hover:border-black transition-colors duration-1000 pb-2">Link to this project <svg class="inline animate-bounce" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
           </div>
-          <div class="w-1/2 bg-black">
-            <img src="./images/image1.png" alt="" />
+          <div class="bg-black flex justify-center items-center w-3/5">
+            <img class="w-4/5 h-4/5 slideshow" src="./images/image3.png" alt="" />
           </div>
         </div>
       </div>
@@ -349,22 +342,22 @@
 
     <!-- FOOTER -->
 
-    <footer class="h-[60vh] w-full flex flex-col justify-around border-t-2 border-[#DBDBDB] ">
+    <footer id="footers" class="h-[60vh] w-full flex flex-col justify-around border-t-2 border-[#DBDBDB] ">
       <div class="collaborate flex justify-between items-center">
-        <p class="text-[70px]" >Let's Collaborate</p>
-        <a href=""> <p class="text-[30px]">manacquah81@gmail.com</p></a>
+        <p class="text-[80px] font-medium" >Let's Collaborate</p>
+        <a href="mailto:manacquah81@gmail.com"> <p class="text-[45px] border-b-4 border-[#969696] hover:border-black transition-colors duration-1000 pb-2">manacquah81@gmail.com</p></a>
       </div>
 
       <div>
-        <div class="footer-below-items flex justify-between">
+        <div class="footer-below-items flex justify-between items-end">
           <div>
-            <p>© MANASSEH ACQUAH 2025</p>
+            <p class="font-medium text-[20px] opacity-80">© MANASSEH ACQUAH 2025</p>
           </div>
 
           <div class="footer-below flex justify-between gap-[30px]">
-            <a class="text-[15px]" href="">Github</a>
-            <a class="text-[15px]" href="">LinkedIn</a>
-            <a class="text-[15px]" href="">Medium</a>
+            <a class="text-[15px]" href="https://github.com/TsitsiFx" target="_blank"><i class="fa fa-github" style= "font-size:30px"></i> </a>
+            <a class="text-[15px]" href=""> <i class="fa fa-linkedin" style= "font-size:30px"></i> </a>
+            <a class="text-[15px]" href="https://wa.link/v04mpg" target="_blank"><i class="fa fa-whatsapp" style= "font-size:30px"></i></a>
           </div>
         </div>
       </div>
